@@ -5,7 +5,7 @@ const createWindow = () => {
   const win = new BrowserWindow({
     width: 300,
     height: 500,
-    icon: path.join(__dirname, 'icon.png'),
+    icon: path.join(__dirname, '/assets/icon.png'),
     resizable: false,
   });
   win.setMenuBarVisibility(false);
